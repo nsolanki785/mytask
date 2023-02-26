@@ -19,10 +19,10 @@ export default function PostCard({ singlepostdata }) {
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                    id:{singlepostdata.id}
+                    {singlepostdata.id}
                 </Typography>
                 <Typography gutterBottom variant="h5" component="div">
-                    title:{singlepostdata.title}
+                    {singlepostdata.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     content:{singlepostdata.body}
